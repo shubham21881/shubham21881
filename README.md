@@ -26,3 +26,4 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=shubham21881&show_icons=true&locale=en" alt="shubham21881" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=shubham21881&" alt="shubham21881" /></p>
+<a href="https://app.daily.dev/shubham_21881"><img src="https://api.daily.dev/devcards/v2/1hOa3LoOKkdGcCRo2UwiS.png?type=wide&r=qc2" width="652" alt="shubham's Dev Card"/></a>
