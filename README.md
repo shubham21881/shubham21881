@@ -1,10 +1,18 @@
+<a href="https://itsme-delta-nine.vercel.app">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/neofetch-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/neofetch-light.svg" />
+    <img src="assets/neofetch-dark.svg" width="100%" alt="shubham@mourya terminal card · Full-stack & Applied AI Engineer at Goose Labs · live GitHub stats" />
+  </picture>
+</a>
+
 <!-- ───────────────────────────── HEADER ───────────────────────────── -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:0b1120,55:1e3a8a,100:2563eb&text=Shubham%20Mourya&fontColor=ffffff&fontSize=56&fontAlignY=36&desc=Full-stack%20%26%20Applied%20AI%20Engineer&descSize=19&descAlignY=58&animation=fadeIn" width="100%" alt="Shubham Mourya — Full-stack & Applied AI Engineer" />
+  <img src="assets/header.svg" width="100%" alt="Shubham Mourya — Full-stack & Applied AI Engineer" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=900&color=60A5FA&center=true&vCenter=true&width=620&lines=I+build+AI+products+that+actually+ship.;Voice+agents+%C2%B7+RAG+%C2%B7+Healthcare+SaaS;Next.js+%C2%B7+TypeScript+%C2%B7+Node.js+%C2%B7+MongoDB" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=900&color=60A5FA&center=true&vCenter=true&width=760&lines=I+build+AI+products+that+actually+ship.;Voice+agents+%C2%B7+RAG+%C2%B7+Healthcare+SaaS;Next.js+%C2%B7+TypeScript+%C2%B7+Node.js+%C2%B7+MongoDB" alt="Typing intro" />
 </p>
 
 <p align="center">
@@ -16,20 +24,10 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=shubham21881&label=profile%20views&color=2563eb&style=flat-square" alt="Profile views" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=shubham21881.shubham21881&left_text=profile%20views&left_color=%23555555&right_color=%232563eb" alt="Profile views" />
   <img src="https://img.shields.io/github/followers/shubham21881?label=followers&color=2563eb&style=flat-square" alt="Followers" />
   <img src="https://img.shields.io/badge/based%20in-Raipur%2C%20India-2563eb?style=flat-square" alt="Location" />
 </p>
-
-<br />
-
-<a href="https://itsme-delta-nine.vercel.app">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/neofetch-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/neofetch-light.svg" />
-    <img src="assets/neofetch-dark.svg" width="100%" alt="shubham@mourya terminal card · Full-stack & Applied AI Engineer at Goose Labs · live GitHub stats" />
-  </picture>
-</a>
 
 <br />
 
@@ -199,4 +197,4 @@ I'm a **full-stack developer** who builds **production-ready web apps and AI pro
 <!-- LAST_UPDATED:END -->
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:2563eb,45:1e3a8a,100:0b1120&section=footer" width="100%" alt="" />
+<img src="assets/footer.svg" width="100%" alt="" />
