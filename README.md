@@ -23,6 +23,16 @@
 
 <br />
 
+<a href="https://itsme-delta-nine.vercel.app">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/neofetch-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/neofetch-light.svg" />
+    <img src="assets/neofetch-dark.svg" width="100%" alt="shubham@mourya terminal card · Full-stack & Applied AI Engineer at Goose Labs · live GitHub stats" />
+  </picture>
+</a>
+
+<br />
+
 ## 👨‍💻 About me
 
 I'm a **full-stack developer** who builds **production-ready web apps and AI products**. I started in the MERN stack and grew into **generative AI**: voice agents, RAG, embeddings, transcription and automation. I like owning the whole arc, from product thinking to UI, architecture, testing and deployment, then improving it through real-world use.

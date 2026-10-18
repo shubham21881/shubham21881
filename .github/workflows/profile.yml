@@ -9,6 +9,7 @@ on:
     paths:
       - README.md
       - scripts/**
+      - assets/ascii-portrait-*.txt
       - .github/workflows/**
 
 permissions:
@@ -33,7 +34,7 @@ jobs:
           UTC_OFFSET: 5.5
 
   readme-sections:
-    name: Latest projects & activity
+    name: Neofetch card & latest projects
     needs: stats-cards # runs after the cards commit, so both jobs never push at once
     if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
@@ -44,6 +45,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - run: node scripts/neofetch.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: ${{ github.repository_owner }}
       - run: node scripts/update-readme.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -52,7 +57,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add README.md assets/neofetch-*.svg
           git diff --cached --quiet || (git commit -m "chore: refresh README sections" && git push)
 
   snake:
