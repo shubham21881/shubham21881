@@ -155,7 +155,8 @@ function render(theme, ascii, stats) {
   info.push('', header('GitHub Stats'));
   info.push(pair(['Repos', num(stats.repos)], ['Stars', num(stats.stars)]));
   info.push(pair(['Contributions', num(stats.contributions)], ['Followers', num(stats.followers)]));
-  info.push(pair(['Pull requests', num(stats.prs)], ['Contributed', num(stats.contributedTo)]));
+  const since = new Date(stats.createdAt).toLocaleDateString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' });
+  info.push(pair(['Pull requests', num(stats.prs)], ['Since', since]));
   info.push(row('Contributions (last year)', num(stats.lastYear)));
 
   const artX = 22;
