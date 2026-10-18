@@ -133,10 +133,10 @@ I'm a **full-stack developer** who builds **production-ready web apps and AI pro
 <!-- LATEST_PROJECTS:START -->
 - [**Therapy-rate-card**](https://github.com/shubham21881/Therapy-rate-card) — Print-ready A4 therapy rate card for Prānaa, built with Next.js and Tailwind CSS.<br />`JavaScript` · [Live demo ↗](https://therapy-rate-card.vercel.app) · <sub>updated May 2026</sub>
 - [**final-web**](https://github.com/shubham21881/final-web) — Marketing website for Savefuel Technology, an eco-friendly energy solutions company. HTML, CSS and JavaScript.<br />`CSS` · [Live demo ↗](https://final-web-lemon.vercel.app) · <sub>updated May 2026</sub>
-- [**Oligoscan**](https://github.com/shubham21881/Oligoscan)<br /><sub>updated Jan 2026</sub>
 - [**handlebar**](https://github.com/shubham21881/handlebar) — Express + Handlebars server that renders patient summary reports: demographics, visits, questionnaires, prescriptions and diagnostics.<br />`Handlebars` · <sub>updated Jan 2026</sub>
 - [**meta-form**](https://github.com/shubham21881/meta-form) — Official patient form for Prānaa, built as a lightweight single-page HTML form.<br />`HTML` · [Live demo ↗](https://meta-form-kohl.vercel.app) · <sub>updated Nov 2025</sub>
 - [**plantshazaam**](https://github.com/shubham21881/plantshazaam) — Mobile-first app to catalog and care for plants, with AI-generated plant images and care suggestions (OpenAI). React, Express, MySQL, Docker.<br />`JavaScript` · [Live demo ↗](https://plantshazaam.vercel.app) · <sub>updated Nov 2025</sub>
+- [**Pranaa-page**](https://github.com/shubham21881/Pranaa-page) — Next.js landing page for Prānaa's diagnostic testing: vitamins, minerals, hormonal, immune and lifestyle health.<br />`TypeScript` · [Live demo ↗](https://pranaa-page.vercel.app) · <sub>updated Oct 2025</sub>
 <!-- LATEST_PROJECTS:END -->
 
 <sub>My most recently updated public repos, refreshed daily by a GitHub Action. Client and company work is private.</sub>

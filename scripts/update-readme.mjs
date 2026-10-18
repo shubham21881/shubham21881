@@ -39,7 +39,7 @@ async function latestProjects() {
   // The users/ endpoint only returns public repos, even with an authenticated token.
   const repos = await gh(`/users/${USER}/repos?type=owner&sort=pushed&per_page=100`);
   const items = repos
-    .filter((r) => !r.fork && !r.archived && !HIDDEN.has(r.name))
+    .filter((r) => !r.fork && !r.archived && r.size > 0 && !HIDDEN.has(r.name))
     .slice(0, PROJECT_COUNT)
     .map((r) => {
       // Set a repo's description/website on GitHub and it shows up here on the next run.
